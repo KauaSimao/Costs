@@ -63,8 +63,6 @@ function Project() {
         })
         .catch((err) => console.log(err))
     }
-    
-    function removeService () {}
 
     function createService(project) {
         setMessage('')
